@@ -1,107 +1,47 @@
-/* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body and Container */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    margin: 0;
+    padding: 0;
     line-height: 1.6;
+    color: #333;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Header Section */
 header {
+    background: #f4f4f4;
+    padding: 20px;
     text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #ddd;
 }
 
-header h1 {
-    font-size: 2.5em;
-    color: #007BFF;
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
 }
 
-header p {
-    margin-top: 5px;
-    font-size: 1.1em;
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-/* Button */
-.btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: #007BFF;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
 }
 
-.btn:hover {
-    background: #0056b3;
-}
-
-/* Sections */
-section {
-    margin-top: 30px;
+main {
     padding: 20px;
-    background: #f9f9f9;
-    border-radius: 8px;
-    border: 1px solid #ddd;
 }
 
-/* Experience & Projects */
-.job {
-    margin-bottom: 15px;
-    padding: 15px;
-    border-left: 4px solid #007BFF;
-    background: #fff;
-}
-
-/* Skills and Tools */
-.skills span {
-    display: inline-block;
-    background: #e7f1ff;
-    padding: 8px 12px;
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 0.9em;
-}
-
-/* List Styling */
-ul {
-    list-style: none;
-}
-
-ul li {
-    margin-bottom: 8px;
-}
-
-/* QR Code */
-.qr-code {
-    display: block;
-    margin: 20px auto;
-    width: 150px;
-}
-
-/* Footer */
 footer {
+    background: #333;
+    color: #fff;
     text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: #777;
+    padding: 10px 0;
 }
